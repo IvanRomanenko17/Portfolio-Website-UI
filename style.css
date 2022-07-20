@@ -1,0 +1,140 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__container {
+    display: flex;
+}
+.header__logo {
+}
+.header__logo_image {
+}
+.header__navigation {
+}
+.header__navigation_list {
+    display: flex;
+}
+.header__navigation_list_item {
+}
+.main {
+}
+.main__banner {
+}
+.main__banner_background {
+}
+.banner__background_image-left {
+}
+.banner__background_image-right {
+}
+.main__banner_content {
+}
+.banner_content__text {
+}
+.banner_content__title-top {
+}
+.banner_content__title-bottom {
+}
+.banner_content__button {
+}
+.main__portfolio {
+}
+.portfolio__title {
+}
+.portfolio__title_text {
+}
+.porfolio__list {
+}
+.portfolio__column {
+}
+.portfolio__item {
+}
+.portfolio__item_image {
+}
+.main__about {
+}
+.about__title {
+}
+.about__title_text {
+}
+.about__text {
+}
+.about__image {
+}
+.about__image_img {
+}
+.main__testimonials {
+}
+.testimonials__title {
+}
+.testimonials__title_text {
+}
+.testimonials__subtitle {
+}
+.testimonials__cards {
+}
+.testimonials__card {
+}
+.testimonials__card_image {
+}
+.testimonials__card_title {
+}
+.testimonials__card_subtitle {
+}
+.testimonials__card_a {
+}
+.testimonials__card_icon {
+}
+.testimonials__button {
+}
+.main__contacts {
+}
+.contacts__title {
+}
+.contacts__title_text {
+}
+.contacts__form {
+}
+.contacts__form_title {
+}
+.contacts__form_name {
+}
+.contacts__form_email {
+}
+.contacts__form_message {
+}
+.contacts__button {
+}
+.contacts__button_btn {
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__logo {
+}
+.footer__logo_text {
+}
+.footer__privacy {
+}
+.footer__privacy_text {
+}
+.footer__terms {
+}
+.footer__terms_text {
+}
