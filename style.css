@@ -12,6 +12,18 @@
     width: 100%;
 }
 
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81.3081px;
+    line-height: 108px;
+}
+
+
+
+/* header */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -28,6 +40,12 @@
 .header__logo {
 }
 .header__logo_image {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 .header__navigation {
     max-width: 550px;
@@ -41,9 +59,20 @@
     padding-left: 0px;
 }
 .header__navigation_list_item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
 }
-.main {
-}
+
+
+
+/* banner */
+
 .main__banner {
     max-width: 1300px;
     width: 100%;
@@ -54,6 +83,7 @@
     max-width: 1300px;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 212px;
 }
 .banner__background_image-left {
     display: flex;
@@ -83,25 +113,57 @@
     left: 0;
 }
 .banner_content__text {
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 679px;
+    height: 58px;
+    top: 40px;
+    left: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
 }
 .banner_content__title-top {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 59px;
+    left: 165px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 309.341px;
+    line-height: 412px;
 }
 .banner_content__title-bottom {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 308px;
+    left: 304px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 284.808px;
+    line-height: 380px;
 }
 .banner_content__button {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 222px;
+    height: 46px;
+    left: 769.46px;
+    top: 762px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.4067px;
+    line-height: 46px;
+    width: 260.96px;
+    height: 72.14px;
+    background: #FFFFFF;
 }
+
+
+
+/* portfolio */
 .main__portfolio {
 }
 .portfolio__title {
@@ -116,6 +178,10 @@
 }
 .portfolio__item_image {
 }
+
+
+
+/* about */
 .main__about {
 }
 .about__title {
@@ -128,6 +194,10 @@
 }
 .about__image_img {
 }
+
+
+
+/* testimonials */
 .main__testimonials {
 }
 .testimonials__title {
@@ -152,6 +222,10 @@
 }
 .testimonials__button {
 }
+
+
+
+/* contacts */
 .main__contacts {
 }
 .contacts__title {
@@ -172,6 +246,10 @@
 }
 .contacts__button_btn {
 }
+
+
+
+/* footer */
 .footer {
     display: flex;
     flex-direction: column;
