@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 1300px;
     width: 100%;
 }
 
@@ -19,37 +19,88 @@
 }
 .header__container {
     display: flex;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 111px;
 }
 .header__logo {
 }
 .header__logo_image {
 }
 .header__navigation {
+    max-width: 550px;
+    width: 100%;
 }
 .header__navigation_list {
     display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    width: 100%;
+    padding-left: 0px;
 }
 .header__navigation_list_item {
 }
 .main {
 }
 .main__banner {
+    max-width: 1300px;
+    width: 100%;
+    position: relative;
 }
 .main__banner_background {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-between;
 }
 .banner__background_image-left {
+    display: flex;
+    align-items: flex-end;
+    height: 865px;
 }
+
 .banner__background_image-right {
+    display: flex;
+    align-items: flex-start;
+    height: 865px;
 }
+
+.banner__background_image-left_img {
+    width: 604.92px;
+    height: 535.63px;
+}
+
+.banner__background_image-right-img {
+    width: 577.09px;
+    height: 533.07px;
+}
+
 .main__banner_content {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .banner_content__text {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .banner_content__title-top {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .banner_content__title-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .banner_content__button {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .main__portfolio {
 }
