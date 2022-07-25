@@ -165,12 +165,16 @@ h2 {
 
 /* portfolio */
 .main__portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .portfolio__title {
 }
 .portfolio__title_text {
 }
 .porfolio__list {
+    display: flex;
 }
 .portfolio__column {
 }
@@ -183,10 +187,16 @@ h2 {
 
 /* about */
 .main__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about__title {
 }
 .about__title_text {
+}
+.about__content {
+    display: flex;
 }
 .about__text {
 }
@@ -199,6 +209,9 @@ h2 {
 
 /* testimonials */
 .main__testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .testimonials__title {
 }
@@ -207,10 +220,36 @@ h2 {
 .testimonials__subtitle {
 }
 .testimonials__cards {
+    display: flex;
 }
-.testimonials__card {
+
+.testimonials__cards_left {
+    display: flex;
+    flex-direction: column;
+}
+.testimonials__card1 {
+    display: flex;
+    width: 767px;
+    height: 310px;
+}
+.testimonials__card2 {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 671px;
+}
+.testimonials__card3 {
+    display: flex;
+    width: 767px;
+    height: 310px;
+}
+.testimonials__card_content {
+    display: flex;
+    flex-direction: column;
 }
 .testimonials__card_image {
+    width: 309.01px;
+    height: 327.08px;
 }
 .testimonials__card_title {
 }
@@ -227,6 +266,9 @@ h2 {
 
 /* contacts */
 .main__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contacts__title {
 }
