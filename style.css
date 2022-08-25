@@ -215,7 +215,16 @@ h2 {
     display: flex;
 }
 .about__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
     color: #FFFFFF;
+    max-width: 633px;
+    width: 100%;
+    max-height:672px;
+    height: 100%;
 }
 .about__image {
 }
@@ -234,10 +243,22 @@ h2 {
     color: #FFFFFF;
 }
 .testimonials__title_text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81.3081px;
+    line-height: 108px;
     color: #FFFFFF;
 }
 .testimonials__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
     color: #FFFFFF;
+
 }
 .testimonials__cards {
     display: flex;
@@ -266,18 +287,37 @@ h2 {
 .testimonials__card_content {
     display: flex;
     flex-direction: column;
+    background-color: #181818;
 }
 .testimonials__card_image {
     width: 309.01px;
     height: 327.08px;
 }
 .testimonials__card_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 101.52%;
     color: #FFFFFF;
 }
 .testimonials__card_subtitle {
     color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.testimonials_a {
+    display: flex;
 }
 .testimonials__card_a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.0674px;
+    line-height: 19px;
+    color: #ffffff;
 }
 .testimonials__card_icon {
    width: 30.28px;
@@ -300,23 +340,52 @@ h2 {
 }
 .contacts__title_text {
     color: #FFFFFF;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81.3081px;
+    line-height: 108px;
 }
 .contacts__form {
 }
 .contacts__form_title {
     color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44.7477px;
+    line-height: 54px;
+    color: #FFFFFF;
 }
 .contacts__form_name {
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+    width: 855.5px;
+    height: 70px;
 }
 .contacts__form_email {
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+    width: 855.5px;
+    height: 70px;
 }
 .contacts__form_message {
-    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+    width: 855.5px;
+    height: 70px;
 }
 .contacts__button {
-    color: #FFFFFF;
+    width: 187.84px;
+    height: 72.14px;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.4067px;
+    line-height: 46px;
+    color: #000000;
+    border: none;
 }
 .contacts__button_btn {
     color: #FFFFFF;
@@ -336,14 +405,33 @@ h2 {
 .footer__logo {
 }
 .footer__logo_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
     color: #FFFFFF;
 }
 .footer__privacy {
 }
 .footer__privacy_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
     color: #FFFFFF;
 }
 .footer__terms {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .footer__terms_text {
     color: #FFFFFF;
